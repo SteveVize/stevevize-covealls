@@ -8,6 +8,7 @@ def IsEven(x):
     return x % 2 == 0
 
 class IsOddTests(unittest.TestCase):
+    
 
     def testOne(self):
         self.failUnless(IsOdd(1))
